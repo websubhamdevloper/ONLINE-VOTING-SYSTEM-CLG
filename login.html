@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN-PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-login">
+        <h1>VOTER LOGIN</h1>
+        <p class="subtitle">Enter Your Personal Details</p>
+
+        <div class="image-login">
+            <img src="15584897.webp" alt="image of Login">
+        </div>
+
+        <form action="login.php" method="POST">
+
+            <div class="input-group">
+                <label for="email">Email / Username</label>
+                <input type="text" id="email" placeholder="Email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="votername">Voter's Name</label>
+                <input type="text" id="votername" placeholder="Voter's Name" name="votername" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+            </div>
+
+            <button type="submit" class="btn-login">Login</button>
+        </form>
+
+        <p style="margin-top: 15px;">
+            Don't have an account? 
+            <a href="registration.html" class="regis-link">Create ID</a>
+        </p>
+    </div>
+
+</body>
+</html>

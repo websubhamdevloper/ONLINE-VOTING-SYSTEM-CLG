@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Voter ID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Create ID</h1>
+        <p class="subtitle">Register to Vote</p>
+
+        <form action="register.php" method="POST">
+
+            <div class="input-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Full Name" name="fullname" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email / Username</label>
+                <input type="text" id="email" placeholder="Email/UserName" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Create Password</label>
+                <input type="password" id="password" placeholder="Create Password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" id="confirm" placeholder="confirm Password" name="confirm" required>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+        </form>
+
+        <p style="margin-top: 15px;">
+            Already have an account?
+            <a href="login.html" class="log-link">Login</a>
+        </p>
+    </div>
+
+</body>
+</html>
