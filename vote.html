@@ -38,6 +38,15 @@
          <button type="submit" class="btn">Submit Vote</button>
         </form>
     </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(e) {
+        const selected = document.querySelector('input[name="candidate"]:checked');
+        if (!selected) {
+            e.preventDefault();
+            alert('Please select a candidate before voting!');
+        }
+    });
+</script>
 </body>
 </html>
 
