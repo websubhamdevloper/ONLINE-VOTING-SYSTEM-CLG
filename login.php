@@ -37,7 +37,7 @@ try {
 
                 // If already voted
                 if ($user['has_voted'] == 1) {
-                    header("Location: already_voted.html");
+                    header("Location: already-voted.html");
                     exit();
                 }
 
@@ -66,3 +66,5 @@ try {
     die("Database Error: " . $e->getMessage());
 }
 ?>
+
+
