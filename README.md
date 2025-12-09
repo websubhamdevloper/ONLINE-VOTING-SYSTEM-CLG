@@ -1,3 +1,5 @@
+**I HAVE USED FULL-AI TO BUILD IT
+
 # 🗳️ Online Voting System
 
 A secure, web-based voting platform that allows users to register, authenticate, cast votes, and view real-time election results. Built with PHP, MySQL, and vanilla JavaScript.
