@@ -1,4 +1,4 @@
-**I HAVE USED FULL-AI TO BUILD IT
+I HAVE USED FULL-AI TO BUILD IT
 
 # 🗳️ Online Voting System
 
